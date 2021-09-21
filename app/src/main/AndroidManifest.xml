@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RentACab">
         <activity
+            android:name=".loginActivity"
+            android:exported="true" />
+        <activity
             android:name=".registerActivity"
             android:exported="true" />
         <activity android:name=".MainActivity">

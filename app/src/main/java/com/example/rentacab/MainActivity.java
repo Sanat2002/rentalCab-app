@@ -20,5 +20,10 @@ Button button,button2;
         Intent intent = new Intent(this,registerActivity.class);
 startActivity(intent);
     }
+    public void login(View view ){
+        Intent intent2 = new Intent(this, loginActivity.class);
+        startActivity(intent2);
+    }
+
 
 }
