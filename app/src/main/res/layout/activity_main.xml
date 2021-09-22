@@ -11,6 +11,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="login"
         android:text="LOGIN"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,10 +29,10 @@
         android:text="REGISTER"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintHorizontal_bias="0.474"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.903" />
+        app:layout_constraintVertical_bias="0.866" />
 
     <Button
         android:id="@+id/button3"
@@ -46,8 +47,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="125dp"
-        android:layout_height="25dp"
+        android:layout_width="261dp"
+        android:layout_height="64dp"
         android:background="#FFFFFF"
         android:text="RENT A CAB"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"

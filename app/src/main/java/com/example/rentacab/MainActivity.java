@@ -24,6 +24,4 @@ startActivity(intent);
         Intent intent2 = new Intent(this, loginActivity.class);
         startActivity(intent2);
     }
-
-
 }
